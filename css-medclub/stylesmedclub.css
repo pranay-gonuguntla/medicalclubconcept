@@ -1,0 +1,310 @@
+
+
+
+
+/* .red {
+  color: red;
+}
+.small {
+  font-size: 5px;
+} */
+
+.red {
+  color: red;
+}
+
+
+
+
+
+/* div.scroll { 
+  margin:4px, 4px; 
+  padding:4px; 
+  background-color: rgb(209, 209, 209); 
+  width: 500px; 
+  height: 110px; 
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  text-align:justify; 
+  position: 50px;
+}  */
+
+
+.divimage {
+  background-image: url(https://image.shutterstock.com/image-photo/medical-blurred-background-260nw-1152522443.jpg);
+  background-size: cover;
+  border-radius: 6px;
+}
+
+#oppdiv .active {
+  background-color: #17A2B8;
+}
+
+
+
+
+
+
+ 
+.oppitem {
+  color: #17A2B8;
+
+}
+
+.oppnav .nav-item {
+  color: #17A2B8;
+}
+
+
+
+#jumbotron-2 {
+  width: 750px;
+  height: 500px;
+  background-color: white;
+}
+
+
+.white {
+  color: white;
+}
+
+.smaller {
+  font-size: 10px;
+}
+
+#scrollspy-example{
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top:60px
+}
+
+.nav-item {
+  font-family: 'Questrial', sans-serif;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(29,131,145, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+} 
+
+#navbardiv {
+ padding-top: 40px;
+ padding-bottom: 40px;
+ background-color: #f7f7f7;
+}
+.scrollcontent {
+  min-height:300px;
+  width: 500px;  
+  float:left;
+  position:relative;
+  overflow-y:auto;
+}
+
+#oppdesc {
+  background-color: white;
+  height: 250px;
+  border-radius: 6px;
+  
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+}
+
+#jumbotron-1 {
+  background-image: url("https://media.discordapp.net/attachments/508464956640067584/783510239722602536/medschoolimage.jpg");
+  background-size: cover;
+}
+
+
+#jumbotron-3 {
+  background-color: white;
+  background-size: cover;
+}
+
+
+form button img {
+  width: 150%;
+  border:0;
+  padding-right: 7px;
+  padding-bottom: 2.5px;
+}
+
+/*
+ * ----------------------------------------
+ * regular styles
+ * ----------------------------------------
+ */
+
+
+ #slideshowimg {
+  width: 90px;
+}
+/*
+ * ----------------------------------------
+ * animation classes
+ * ----------------------------------------
+ */
+
+
+.roll-in-blurred-left {
+	-webkit-animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+.text-pop-up-top {
+  -webkit-animation: text-pop-up-top 7s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+  animation: text-pop-up-top 7s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+}
+
+.kenburns-top {
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
+}
+
+.text-shadow-drop-center {
+	-webkit-animation: text-shadow-drop-center 0s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+	        animation: text-shadow-drop-center 0s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+}
+
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+.carousel-item img {
+  float: left;
+  width:  833px;
+  height: 469px;
+  background-size: cover;
+}
+
+/*
+ * ----------------------------------------
+ * animation keyframes
+ * ----------------------------------------
+ */
+
+
+/* The typing effect */
+
+ 
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+
+
+ @-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+ @-webkit-keyframes roll-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) rotate(-720deg);
+            transform: translateX(-1000px) rotate(-720deg);
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+works__item__title {
+    display: block;
+    width: 100px;
+    overflow: visible;
+    position: relative;
+    padding-top: .17em;
+    margin-top: -.17em;
+    font: 100px/.83 'Titling Gothic Skyline',Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    -webkit-transition: -webkit-transform .35s,color .35s;
+    transition: transform .35s,color .35s;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
